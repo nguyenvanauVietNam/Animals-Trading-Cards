@@ -1,0 +1,65 @@
+/* add your CSS here */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 300px; /* Chiều rộng cố định */
+    border: 1px solid #ddd; /* Đường viền xung quanh card */
+    border-radius: 10px; /* Bo tròn các góc */
+    padding: 10px; /* Khoảng cách bên trong card */
+    background-color: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Bóng đổ cho hiệu ứng 3D */
+    transition: transform 0.3s; /* Hiệu ứng chuyển động khi hover */
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05); /* Hiệu ứng nâng lên và phóng to khi hover */
+}
+
+.card img {
+    width: 300px; /* Đặt chiều rộng hình ảnh là 300px */
+    height: auto; /* Chiều cao tự động */
+    border-radius: 5px; /* Bo tròn các góc của hình ảnh */
+}
+
+.card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p, .card ul {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: none; /* Không có dấu chấm cho danh sách */
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+.card ul li span {
+    font-weight: bold; /* Nhãn in đậm */
+}
+
+.card .interesting-fact {
+    font-style: italic; /* Thông tin thú vị in nghiêng */
+    margin-bottom: 10px;
+}
+
+/* Đường viền cho thông tin động vật */
+.card-info {
+    border: 1px solid #ddd; /* Đường viền quanh thông tin động vật */
+    padding: 10px; /* Khoảng cách bên trong thông tin động vật */
+}
